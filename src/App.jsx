@@ -187,7 +187,7 @@ function FriendsList({ friends, onSelection, selectedFriend }){
         </form>
       )
     }
-
+//commiting code
 
     function FormSplitBill({selectedFriend, onSplitBill}) {
 
