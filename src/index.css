@@ -157,6 +157,14 @@ select:focus {
   border: 1px solid var(--color-dark);
 }
 
+.billing{
+  background-color: #fff;
+  color: blue;
+  padding-top: 20px;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
 form .button {
   margin-top: 0.6rem;
   grid-column: 2;

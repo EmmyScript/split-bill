@@ -77,7 +77,9 @@ const initialFriends = [
   
     return (
       <div className='app'>
+
         <div className='sidebar'>
+          <h1 className='billing'>SHARE BILL WITH FRIENDS</h1>
         <FriendsList 
         friends={friends}
          selectedFriend={selectedFriend}
@@ -216,7 +218,7 @@ function handleSubmit(e){
 
           <label> Your expense</label>
           <input
-           type ='text' value={paidByUser}
+           type ='text' placeholder="help-out" value={paidByUser}
            onChange={(e) => setPaidByUser
             (Number(e.target.value) > bill ? paidByUser :
            Number(e.target.value))
